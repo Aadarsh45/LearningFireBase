@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "134443801148",
+    "firebase_url": "https://fir-fc276-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-fc276",
+    "storage_bucket": "fir-fc276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134443801148:android:0929f5f2e5418373a3c139",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyCu36VeRw5dNV6ZjBcaa535Z2r2Vch8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

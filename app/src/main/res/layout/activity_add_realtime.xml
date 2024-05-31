@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddRealtimeActivity">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtRollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rollno"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Add Student"
+        android:layout_gravity="center"
+        android:id="@+id/btnAddStudent"/>
+
+
+</LinearLayout>
