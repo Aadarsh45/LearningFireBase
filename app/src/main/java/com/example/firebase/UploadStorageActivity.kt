@@ -56,10 +56,11 @@ class UploadStorageActivity : AppCompatActivity() {
             val progressDialog = ProgressDialog(this)
             progressDialog.setTitle("Uploading...")
             progressDialog.show()
-            val ref:StorageReference = FirebaseStorage.getInstance().getReference().child(UUID.randomUUID())
+            val ref:StorageReference = FirebaseStorage.getInstance().getReference().child(
+                UUID.randomUUID().toString())
             ref.putFile(fileUri!!).addOnSuccessListener{
                 progressDialog.dismiss()
-                Toast.makeText(this,"unsucessfull",Toast.LENGTH_LONG).show()
+                Toast.makeText(this,"sucessfull",Toast.LENGTH_LONG).show()
             }.addOnFailureListener{
                 progressDialog.show()
                 Toast.makeText(this,"unsucessfull",Toast.LENGTH_LONG).show()
